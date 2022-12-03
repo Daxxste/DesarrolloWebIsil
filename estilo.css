@@ -1,0 +1,333 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+main{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+body{
+    background-color: rgb(229, 226, 226);
+}
+
+header{
+    width: 100%;
+    background-color: #131c46;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ 
+#logo img{
+    width: 120px;
+    margin-left: 30px;
+}
+ 
+#menu1{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+#menu1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Titillium Web',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+ 
+}
+ 
+#menu1 a:hover{
+    background-color: #fc4b18;
+    color: black;
+}
+ 
+#menu2{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+#menu2 a{
+    text-decoration: none;
+   
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+ 
+#boton1{
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    font-family:'Titillium Web',Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+ 
+#boton2{
+    color:#131c46;
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    font-family:'Titillium Web',Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#Pregunta1{
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+font-family:'Titillium Web',Arial, Helvetica, sans-serif;
+width:100%;
+}
+
+#PanoramaPadre{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-left: 45px;
+margin-right: 45px;
+background-color: rgb(244, 238, 238);
+border-radius: 10px;
+}
+
+.Phijo1{
+width: 200px;
+height: 220px;
+background-image: url(Imagenes/Familia.jpg);
+margin:30px;
+color: black;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+border: 1px solid gray;
+box-shadow: 0 3px 7px 0 grey;
+}
+
+.Phijo2{
+    width: 200px;
+    height: 220px;
+    background-image: url(Imagenes/Estudios.jpg);
+    margin:30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    box-shadow: 0 3px 7px 0 grey;
+    }
+
+.Phijo3{
+    width: 200px;
+    height: 220px;
+    background-image: url(Imagenes/Emergencia.jpg);
+    margin:30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    box-shadow: 0 3px 7px 0 grey;
+  }
+
+  .Phijo4{
+    width: 200px;
+    height: 220px;
+    background-image: url(Imagenes/Vivienda.jpg);
+    margin:30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    box-shadow: 0 3px 7px 0 grey;
+  }
+
+  .Phijo5{
+    width: 200px;
+    height: 220px;
+    background-image: url(Imagenes/Viajes.jpg);
+    margin:30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    box-shadow: 0 3px 7px 0 grey;
+  }
+
+  .Phijo6{
+    width: 200px;
+    height: 220px;
+    background-image: url(Imagenes/Salud.jpg);
+    margin:30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    box-shadow: 0 3px 7px 0 grey;
+  }
+
+  .Phijo7{
+    width: 200px;
+    height: 220px;
+    background-image: url(Imagenes/invertir.jpg);
+    margin:30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    box-shadow: 0 3px 7px 0 grey;
+  }
+
+  #BandaH{
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #131c46;
+    text-align: center;
+  }
+
+  #BandaH a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: 'Titillium Web',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  #BandaH a:hover{
+    background-color: #fc4b18;
+    color: black;
+}
+
+#CasillasPadre{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#Padre{
+    width: 100%;
+    border: 5px double black;
+    margin: auto;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Chijo{
+    height: 400px;
+    background-color: rgb(240, 237, 237);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    
+}
+
+.Chijo img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    width: 100%;
+    background-color:#131c46;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+
+#BandaContacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10px;
+    font-family:'Titillium Web',Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+}
+
+#BandaContacto li{
+    list-style-type: none;
+}
+
+#BandaRedes{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.foot2{
+    font-family:'Titillium Web',Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+}
+
+div.foot3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div.foot3 img{
+    width: 30px;
+}
+
